@@ -6,7 +6,7 @@ $message = $_POST['message'];
 
 $email_form = "info@cosmoswebb.000webhostapp.com";
 
-$email_subject = 'New Form Submission';
+$email_subject = "New Form Submission";
 
 $email_body =   "User Name: $name.\n".
                 "User E-Mail: $visitor_email.\n".
