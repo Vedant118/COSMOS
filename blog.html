@@ -1,0 +1,97 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COSMOS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navlink">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT OUR UNIVERSE</a></li>
+                    <li><a href="cosmos.html">COSMOS</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Here some blog about Nasa's james webb</h1>
+        
+    </section>
+        <!----------blog------------->
+
+        <section class="blog-cont">
+                <div class="blog-left">
+                    <img src="images/carina.png">
+                    <h2>Here some blog about Nasa's james webb</h2>
+                    <big><b><p>This landscape of “mountains” and “valleys” speckled with glittering stars is actually the edge of a nearby, young, star-forming region called NGC 3324 in the Carina Nebula. Captured in infrared light by NASA’s new James Webb Space Telescope, this image reveals for the first time previously invisible areas of star birth.</p></b></big>
+                    <br>
+                    <big><b><p>Called the Cosmic Cliffs, Webb’s seemingly three-dimensional picture looks like craggy mountains on a moonlit evening. In reality, it is the edge of the giant, gaseous cavity within NGC 3324, and the tallest “peaks” in this image are about 7 light-years high. The cavernous area has been carved from the nebula by the intense ultraviolet radiation and stellar winds from extremely massive, hot, young stars located in the center of the bubble, above the area shown in this image.</p></b></big>
+            </div>
+            <div class="comment">
+                <h3>Leave A Comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter E-mail">
+                    <textarea rows="5" placeholder="Your comment"></textarea>
+                <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!---------Footer----------->
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>In the observable universe there are an estimated 2 trillion (2,000,000,000,000) galaxies. </p>
+    <div class="icon">
+        <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+        <a href="https://github.com/vedant118"><i class="fa fa-github"></i></a>
+        <a href="https://www.instagram.com/decembers_veryown_/?hl=en"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/rajyash-singh-1681281a0/"><i class="fa fa-linkedin"></i></a>
+        <a href="https://twitter.com/@kachwaha_vedant"><i class="fa fa-twitter"></i></a>
+    </div>
+    <p>Made With <i class="fa fa-heart-o"></i> By Vedant Kachwaha</p>
+</section>
+
+
+
+
+    <!----------------javaScript------------>
+    <script>
+        var navlink = document.getElementById("navlink");
+        function showmenu() {
+            navlink.style.right = "0";
+        }
+        function hidemenu() {
+            navlink.style.right = "-200px";
+        }
+
+    </script>
+    
+</body>
+</html>

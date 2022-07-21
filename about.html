@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COSMOS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navlink">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT OUR UNIVERSE</a></li>
+                    <li><a href="cosmos.html">COSMOS</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>ABOUT OUR UNIVERSE</h1>
+        
+    </section>
+
+
+    <!-----About our universe------>
+
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Here about largest star in the Universe</h1>
+                <p><big><b>Stephenson 2-18</b></big> (abbreviated to St2-18), also known as Stephenson 2 DFK 1 or RSGC2-18, is a red supergiant (RSG) or possible extreme red hypergiant[2] (RHG) star in the constellation of Scutum. It lies near the open cluster Stephenson 2, which is located about 5.8 kiloparsecs (19,000 light-years) away from Earth in the Scutum–Centaurus Arm of the Milky Way galaxy, and is assumed to be one of a group of stars at a similar distance, although some sources consider it to be an unrelated red supergiant.[5][6] It is among the largest known stars, one of the most luminous red supergiants, and one of the most luminous stars in the Milky Way. </p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="images/stephenson.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+<!---------Footer----------->
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>A hollow Sun would fit around 960,000 spherical Earths. If squished inside with no wasted space, then around 1,300,000 would fit inside. The Sun’s surface area is 11,990 times that of the Earth’s.</p>
+    <div class="icon">
+        <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+        <a href="https://github.com/vedant118"><i class="fa fa-github"></i></a>
+        <a href="https://www.instagram.com/decembers_veryown_/?hl=en"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/rajyash-singh-1681281a0/"><i class="fa fa-linkedin"></i></a>
+        <a href="https://twitter.com/@kachwaha_vedant"><i class="fa fa-twitter"></i></a>
+    </div>
+    <p>Made With <i class="fa fa-heart-o"></i> By Vedant Kachwaha</p>
+</section>
+
+
+
+
+    <!----------------javaScript------------>
+    <script>
+        var navlink = document.getElementById("navlink");
+        function showmenu() {
+            navlink.style.right = "0";
+        }
+        function hidemenu() {
+            navlink.style.right = "-200px";
+        }
+
+    </script>
+    
+</body>
+</html>
