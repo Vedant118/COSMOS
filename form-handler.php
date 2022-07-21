@@ -4,7 +4,7 @@ $visitor_email = $_POST['email'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
 
-$email_form = 'info@cosmoswebb.000webhostapp.com';
+$email_form = "info@cosmoswebb.000webhostapp.com";
 
 $email_subject = 'New Form Submission';
 
@@ -13,7 +13,7 @@ $email_body =   "User Name: $name.\n".
                 "Subject: $subject.\n".
                 "User Message: $message.\n";
 
-$to = 'vedantkachwaha1@gmail.com';
+$to = "vedantkachwaha1@gmail.com";
 
 $headers = "From: $email_from \r\n";
 
